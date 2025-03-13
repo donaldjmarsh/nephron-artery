@@ -1,0 +1,5 @@
+cp tuball85.f95 tuball.f95
+cp affall85.f95 affall.f95
+cp Makefile85 Makefile
+make
+exec mpiexec -n 11 ./oprand85275

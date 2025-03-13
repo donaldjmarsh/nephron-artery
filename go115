@@ -1,0 +1,6 @@
+cp tuball115.f95 tuball.f95
+cp affall115.f95 affall.f95
+cp Makefile115 Makefile
+make
+cp inputsys-115-301.dat inputsys.dat
+exec mpiexec -n 11 ./oprand115275
